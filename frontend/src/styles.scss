@@ -1,0 +1,87 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html,
+body {
+  height: 100%;
+  margin: 0;
+  font-family: "Inter", sans-serif;
+  background: #0f172a;
+  color: white;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+/* Angular Material Global */
+
+.mat-mdc-form-field {
+  width: 100%;
+}
+
+/* Main Input Container */
+.custom-field .mat-mdc-text-field-wrapper {
+  background: rgba(255,255,255,0.06) !important;
+  border-radius: 16px !important;
+  backdrop-filter: blur(12px);
+  padding: 2px 6px;
+}
+
+/* Remove default underline */
+.custom-field .mdc-line-ripple {
+  display: none !important;
+}
+
+/* Input Text */
+.custom-field input {
+  color: white !important;
+}
+
+/* Label */
+.custom-field .mdc-floating-label {
+  color: rgba(255,255,255,0.7) !important;
+}
+
+/* Outline Border */
+.custom-field .mdc-notched-outline__leading,
+.custom-field .mdc-notched-outline__notch,
+.custom-field .mdc-notched-outline__trailing {
+  border-color: rgba(255,255,255,0.12) !important;
+}
+
+/* Focus Border */
+.custom-field.mat-focused .mdc-notched-outline__leading,
+.custom-field.mat-focused .mdc-notched-outline__notch,
+.custom-field.mat-focused .mdc-notched-outline__trailing {
+  border-color: #3b82f6 !important;
+  border-width: 2px !important;
+}
+
+/* Select Text */
+.custom-field .mat-mdc-select-value-text {
+  color: white !important;
+}
+
+/* Dropdown Arrow */
+.custom-field .mat-mdc-select-arrow {
+  color: white !important;
+}
+
+/* Dropdown Panel */
+.custom-dropdown {
+  background: #111827 !important;
+  border-radius: 12px !important;
+  overflow: hidden;
+}
+
+/* Dropdown Options */
+.custom-dropdown .mat-mdc-option {
+  color: white !important;
+}
+
+/* Dropdown Hover */
+.custom-dropdown .mat-mdc-option:hover {
+  background: rgba(255,255,255,0.08) !important;
+}
