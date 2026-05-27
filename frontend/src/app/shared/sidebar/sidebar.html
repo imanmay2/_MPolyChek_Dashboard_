@@ -1,0 +1,63 @@
+<div
+  class="hidden h-screen w-[260px] shrink-0 border-r border-white/10 bg-white/[0.04] p-6 backdrop-blur-xl lg:flex lg:flex-col">
+
+  <!-- Logo -->
+  <div class="flex items-center gap-3 mb-12">
+
+    <div
+      class="flex h-12 w-12 items-center justify-center rounded-2xl bg-gradient-to-br from-cyan-400 via-blue-500 to-violet-500 text-xl font-bold text-white shadow-lg shadow-cyan-500/20">
+      M
+    </div>
+
+    <div>
+
+      <h1 class="text-xl font-bold text-white">
+        Mpolychk
+      </h1>
+
+      <p class="text-xs text-gray-400">
+        Enterprise Portal
+      </p>
+
+    </div>
+
+  </div>
+
+  <!-- Navigation -->
+  <nav class="flex flex-col gap-3">
+
+    <a
+      routerLink="/dashboard"
+      routerLinkActive="border-cyan-400/40 bg-cyan-400/10 text-cyan-200"
+      class="flex h-12 items-center rounded-xl border border-transparent px-4 text-sm font-medium text-slate-300 transition-all hover:bg-white/[0.06] hover:text-white">
+
+      Dashboard
+
+    </a>
+
+    <a
+      routerLink="/admin"
+      routerLinkActive="border-cyan-400/40 bg-cyan-400/10 text-cyan-200"
+      class="flex h-12 items-center rounded-xl border border-transparent px-4 text-sm font-medium text-slate-300 transition-all hover:bg-white/[0.06] hover:text-white">
+
+      Admin Panel
+
+    </a>
+
+  </nav>
+
+  <div class="mt-auto rounded-2xl border border-white/10 bg-white/[0.04] p-4">
+    <p class="text-xs uppercase tracking-[0.18em] text-slate-500">
+      Environment
+    </p>
+
+    <p class="mt-2 text-sm font-semibold text-white">
+      Mock API Active
+    </p>
+
+    <p class="mt-1 text-xs text-slate-400">
+      LocalStorage persistence enabled
+    </p>
+  </div>
+
+</div>
