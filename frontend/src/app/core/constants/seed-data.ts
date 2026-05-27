@@ -4,7 +4,7 @@ export const SEED_USERS: AppUser[] = [
   {
     id: 'USR-1001',
     name: 'Aarav Mehta',
-    email: 'aarav.mehta@mpolychk.io',
+    email: 'aarav.mehta@mploychek.io',
     department: 'Engineering',
     role: 'admin',
     status: 'active',
@@ -14,7 +14,7 @@ export const SEED_USERS: AppUser[] = [
   {
     id: 'USR-1002',
     name: 'Priya Nair',
-    email: 'priya.nair@mpolychk.io',
+    email: 'priya.nair@mploychek.io',
     department: 'Finance',
     role: 'user',
     status: 'active',
@@ -24,7 +24,7 @@ export const SEED_USERS: AppUser[] = [
   {
     id: 'USR-1003',
     name: 'Kabir Sharma',
-    email: 'kabir.sharma@mpolychk.io',
+    email: 'kabir.sharma@mploychek.io',
     department: 'Operations',
     role: 'user',
     status: 'pending',
@@ -34,7 +34,7 @@ export const SEED_USERS: AppUser[] = [
   {
     id: 'USR-1004',
     name: 'Nisha Rao',
-    email: 'nisha.rao@mpolychk.io',
+    email: 'nisha.rao@mploychek.io',
     department: 'Human Resources',
     role: 'admin',
     status: 'active',
@@ -44,7 +44,7 @@ export const SEED_USERS: AppUser[] = [
   {
     id: 'USR-1005',
     name: 'Dev Malhotra',
-    email: 'dev.malhotra@mpolychk.io',
+    email: 'dev.malhotra@mploychek.io',
     department: 'Security',
     role: 'user',
     status: 'suspended',
@@ -54,7 +54,7 @@ export const SEED_USERS: AppUser[] = [
   {
     id: 'USR-1006',
     name: 'Sara Thomas',
-    email: 'sara.thomas@mpolychk.io',
+    email: 'sara.thomas@mploychek.io',
     department: 'Legal',
     role: 'user',
     status: 'pending',

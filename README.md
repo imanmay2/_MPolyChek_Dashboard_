@@ -1,6 +1,6 @@
-# Mpolychk Enterprise Dashboard
+# MPloyChek Enterprise Dashboard
 
-Mpolychk Enterprise Dashboard is a single page enterprise access-management dashboard built with Angular, TypeScript, TailwindCSS, Angular Material, RxJS, and a mock API layer backed by browser LocalStorage.
+MPloyChek Enterprise Dashboard is a single page enterprise access-management dashboard built with Angular, TypeScript, TailwindCSS, Angular Material, RxJS, and a mock API layer backed by browser LocalStorage.
 
 The project was developed for an internship assignment that required a role-based SPA with login, user/admin flows, async API simulation, dashboard records, and admin user management.
 

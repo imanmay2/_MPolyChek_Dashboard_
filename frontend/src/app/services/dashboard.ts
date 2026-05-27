@@ -235,7 +235,7 @@ export class DashboardService {
       .split(' ')
       .filter(Boolean)
       .map((part) => `${part.charAt(0).toUpperCase()}${part.slice(1)}`)
-      .join(' ') || 'Mpolychk User';
+      .join(' ') || 'MPloyChek User';
   }
 
 }
